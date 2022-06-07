@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4C3696C284EFB740031F612 /* toothappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696B284EFB740031F612 /* toothappApp.swift */; };
+		D4C3696E284EFB740031F612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696D284EFB740031F612 /* ContentView.swift */; };
+		D4C36970284EFB760031F612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696F284EFB760031F612 /* Assets.xcassets */; };
+		D4C36973284EFB760031F612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C36972284EFB760031F612 /* Preview Assets.xcassets */; };
+		D4C3697D284EFB760031F612 /* toothappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3697C284EFB760031F612 /* toothappTests.swift */; };
+		D4C36987284EFB760031F612 /* toothappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C36986284EFB760031F612 /* toothappUITests.swift */; };
+		D4C36989284EFB760031F612 /* toothappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C36988284EFB760031F612 /* toothappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4C36979284EFB760031F612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C36960284EFB740031F612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C36967284EFB740031F612;
+			remoteInfo = toothapp;
+		};
+		D4C36983284EFB760031F612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C36960284EFB740031F612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C36967284EFB740031F612;
+			remoteInfo = toothapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4C36968284EFB740031F612 /* toothapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toothapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3696B284EFB740031F612 /* toothappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothappApp.swift; sourceTree = "<group>"; };
+		D4C3696D284EFB740031F612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4C3696F284EFB760031F612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C36972284EFB760031F612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4C36978284EFB760031F612 /* toothappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toothappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3697C284EFB760031F612 /* toothappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothappTests.swift; sourceTree = "<group>"; };
+		D4C36982284EFB760031F612 /* toothappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toothappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C36986284EFB760031F612 /* toothappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothappUITests.swift; sourceTree = "<group>"; };
+		D4C36988284EFB760031F612 /* toothappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C36965284EFB740031F612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C36975284EFB760031F612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697F284EFB760031F612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4C3695F284EFB740031F612 = {
+			isa = PBXGroup;
+			children = (
+				D4C3696A284EFB740031F612 /* toothapp */,
+				D4C3697B284EFB760031F612 /* toothappTests */,
+				D4C36985284EFB760031F612 /* toothappUITests */,
+				D4C36969284EFB740031F612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C36969284EFB740031F612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C36968284EFB740031F612 /* toothapp.app */,
+				D4C36978284EFB760031F612 /* toothappTests.xctest */,
+				D4C36982284EFB760031F612 /* toothappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C3696A284EFB740031F612 /* toothapp */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3696B284EFB740031F612 /* toothappApp.swift */,
+				D4C3696D284EFB740031F612 /* ContentView.swift */,
+				D4C3696F284EFB760031F612 /* Assets.xcassets */,
+				D4C36971284EFB760031F612 /* Preview Content */,
+			);
+			path = toothapp;
+			sourceTree = "<group>";
+		};
+		D4C36971284EFB760031F612 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4C36972284EFB760031F612 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4C3697B284EFB760031F612 /* toothappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3697C284EFB760031F612 /* toothappTests.swift */,
+			);
+			path = toothappTests;
+			sourceTree = "<group>";
+		};
+		D4C36985284EFB760031F612 /* toothappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C36986284EFB760031F612 /* toothappUITests.swift */,
+				D4C36988284EFB760031F612 /* toothappUITestsLaunchTests.swift */,
+			);
+			path = toothappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C36967284EFB740031F612 /* toothapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C3698C284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothapp" */;
+			buildPhases = (
+				D4C36964284EFB740031F612 /* Sources */,
+				D4C36965284EFB740031F612 /* Frameworks */,
+				D4C36966284EFB740031F612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toothapp;
+			productName = toothapp;
+			productReference = D4C36968284EFB740031F612 /* toothapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4C36977284EFB760031F612 /* toothappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C3698F284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothappTests" */;
+			buildPhases = (
+				D4C36974284EFB760031F612 /* Sources */,
+				D4C36975284EFB760031F612 /* Frameworks */,
+				D4C36976284EFB760031F612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C3697A284EFB760031F612 /* PBXTargetDependency */,
+			);
+			name = toothappTests;
+			productName = toothappTests;
+			productReference = D4C36978284EFB760031F612 /* toothappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4C36981284EFB760031F612 /* toothappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C36992284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothappUITests" */;
+			buildPhases = (
+				D4C3697E284EFB760031F612 /* Sources */,
+				D4C3697F284EFB760031F612 /* Frameworks */,
+				D4C36980284EFB760031F612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C36984284EFB760031F612 /* PBXTargetDependency */,
+			);
+			name = toothappUITests;
+			productName = toothappUITests;
+			productReference = D4C36982284EFB760031F612 /* toothappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C36960284EFB740031F612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D4C36967284EFB740031F612 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D4C36977284EFB760031F612 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D4C36967284EFB740031F612;
+					};
+					D4C36981284EFB760031F612 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D4C36967284EFB740031F612;
+					};
+				};
+			};
+			buildConfigurationList = D4C36963284EFB740031F612 /* Build configuration list for PBXProject "toothapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C3695F284EFB740031F612;
+			productRefGroup = D4C36969284EFB740031F612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C36967284EFB740031F612 /* toothapp */,
+				D4C36977284EFB760031F612 /* toothappTests */,
+				D4C36981284EFB760031F612 /* toothappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C36966284EFB740031F612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C36973284EFB760031F612 /* Preview Assets.xcassets in Resources */,
+				D4C36970284EFB760031F612 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C36976284EFB760031F612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C36980284EFB760031F612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C36964284EFB740031F612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3696E284EFB740031F612 /* ContentView.swift in Sources */,
+				D4C3696C284EFB740031F612 /* toothappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C36974284EFB760031F612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3697D284EFB760031F612 /* toothappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697E284EFB760031F612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C36989284EFB760031F612 /* toothappUITestsLaunchTests.swift in Sources */,
+				D4C36987284EFB760031F612 /* toothappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4C3697A284EFB760031F612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C36967284EFB740031F612 /* toothapp */;
+			targetProxy = D4C36979284EFB760031F612 /* PBXContainerItemProxy */;
+		};
+		D4C36984284EFB760031F612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C36967284EFB740031F612 /* toothapp */;
+			targetProxy = D4C36983284EFB760031F612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4C3698A284EFB760031F612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4C3698B284EFB760031F612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C3698D284EFB760031F612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"toothapp/Preview Content\"";
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4C3698E284EFB760031F612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"toothapp/Preview Content\"";
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4C36990284EFB760031F612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toothapp.app/toothapp";
+			};
+			name = Debug;
+		};
+		D4C36991284EFB760031F612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toothapp.app/toothapp";
+			};
+			name = Release;
+		};
+		D4C36993284EFB760031F612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = toothapp;
+			};
+			name = Debug;
+		};
+		D4C36994284EFB760031F612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RTX7799NC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zzl85199.toothappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = toothapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C36963284EFB740031F612 /* Build configuration list for PBXProject "toothapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3698A284EFB760031F612 /* Debug */,
+				D4C3698B284EFB760031F612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C3698C284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3698D284EFB760031F612 /* Debug */,
+				D4C3698E284EFB760031F612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C3698F284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C36990284EFB760031F612 /* Debug */,
+				D4C36991284EFB760031F612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C36992284EFB760031F612 /* Build configuration list for PBXNativeTarget "toothappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C36993284EFB760031F612 /* Debug */,
+				D4C36994284EFB760031F612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C36960284EFB740031F612 /* Project object */;
+}
